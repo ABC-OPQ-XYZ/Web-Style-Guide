@@ -1,0 +1,31 @@
+@import '../utilities/variables.scss';
+
+
+@for $i from 1 through 12 {
+.theme.col-#{$i} {
+  background-color: adjust-hue($info-color, $i * 170);
+}
+}
+
+/* og from css*/
+.container {
+  padding: 0 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 10px;
+}
+
+[class^=col] {
+  margin-top: 10px;
+  flex-basis: 100%;
+  min-height: 25px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.card {
+  flex-basis: 100%;
+}

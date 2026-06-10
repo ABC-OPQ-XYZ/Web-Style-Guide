@@ -1,0 +1,72 @@
+/* media-quearies*/
+/* colors*/
+.theme.col-1 {
+  background-color: #b6c17b;
+}
+
+.theme.col-2 {
+  background-color: #7b7bc1;
+}
+
+.theme.col-3 {
+  background-color: #c1b57b;
+}
+
+.theme.col-4 {
+  background-color: #7b93c1;
+}
+
+.theme.col-5 {
+  background-color: #c19e7b;
+}
+
+.theme.col-6 {
+  background-color: #7baac1;
+}
+
+.theme.col-7 {
+  background-color: #c1867b;
+}
+
+.theme.col-8 {
+  background-color: #7bc1c1;
+}
+
+.theme.col-9 {
+  background-color: #c17b87;
+}
+
+.theme.col-10 {
+  background-color: #7bc1a9;
+}
+
+.theme.col-11 {
+  background-color: #c17b9e;
+}
+
+.theme.col-12 {
+  background-color: #7bc192;
+}
+
+/* og from css*/
+.container {
+  padding: 0 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 10px;
+}
+
+[class^=col] {
+  margin-top: 10px;
+  flex-basis: 100%;
+  min-height: 25px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.card {
+  flex-basis: 100%;
+}

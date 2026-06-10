@@ -1,0 +1,68 @@
+@import '../utilities/variables.scss';
+
+@media (min-width: $media-queary768) {
+@for  $i from 1 through 12 {
+.col-#{$i} {
+  flex-basis: ($i * 8.33333333333333333333333333333333333333333333333333333333333%);
+        }
+    }
+}
+
+
+
+
+/* og from css*/
+@media (min-width: $media-queary768) {
+
+.container {
+  max-width: 1400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  flex-direction: row;
+}
+
+[class^=col] {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  align-items: center;
+}
+
+[class^=col] + [class^=col] {
+  margin-left: 10px;
+}
+
+.nav {
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-link {
+  flex-basis: 100px;
+}
+
+.btn {
+  padding: 10px 30px;
+}
+
+.btn + .btn {
+  margin-left: 10px;
+}
+
+.logo {
+  margin-left: initial;
+  margin-right: initial;
+}
+
+}

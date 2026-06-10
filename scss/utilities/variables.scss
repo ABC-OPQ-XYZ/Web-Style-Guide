@@ -1,0 +1,23 @@
+/* media-quearies*/
+$media-queary768: 768px;
+/* colors*/
+$theme-color: #58e1c1;
+$default-color: #51ddfc;
+$success-color: #63cc82;
+$error-color: #e4757a;
+$warning-color:#fd7856;
+$info-color:#927bc1;
+
+$grid-buttons:('default', 'error', 'info', 'success', 'warning');
+
+$grid-buttons: (
+  'default': $default-color,
+  'error':   $error-color,
+  'info':    $info-color,
+  'success': $success-color,
+  'warning': $warning-color,
+);
+
+
+
+
